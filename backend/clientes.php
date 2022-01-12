@@ -15,9 +15,6 @@ $cliente = cliente::getClientes();
 
 
 foreach($cliente as $cliente){
-//    var_dump([
-//     $cliente
-//     ]);
 
 extract($cliente);
 
